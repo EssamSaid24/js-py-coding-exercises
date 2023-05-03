@@ -1,0 +1,19 @@
+// Example of a function
+function addNumbers(a, b) {
+  return a + b;
+}
+
+let result = addNumbers(2, 3); // Calling the function
+console.log(result); // Output: 5
+
+// Example of a method
+let myObject = {
+  x: 1,
+  y: 2,
+  addNumbers: function() {
+    return this.x + this.y;
+  }
+};
+
+let result2 = myObject.addNumbers(); // Calling the method
+console.log(result2); // Output: 3
